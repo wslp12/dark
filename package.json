@@ -1,0 +1,16 @@
+{
+  "name": "dark",
+  "version": "1.0.0",
+  "description": "다키스트던전2 스텟 수정",
+  "license": "MIT",
+  "author": "",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^41.0.3"
+  }
+}

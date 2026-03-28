@@ -1,0 +1,1729 @@
+{
+  "hellion_corpse": {
+    "id": "hellion_corpse",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "15"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "hellion": {
+    "id": "hellion",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "35",
+      "speed": "4",
+      "stress_max": "10",
+      "deaths_door_chance": "1",
+      "speed_number_of_turns": "1",
+      "health_heal_percent_between_nodes": "0.1",
+      "route_choice_chance": "0.67"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "hel_move": {
+    "id": "hel_move",
+    "launchRanks": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "move"
+    ],
+    "effects": [],
+    "isFriendly": true
+  },
+  "hel_wicked_hack": {
+    "id": "hel_wicked_hack",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_wicked_hack"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "hel_wicked_hack_u": {
+    "id": "hel_wicked_hack_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_wicked_hack"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "hel_iron_swan": {
+    "id": "hel_iron_swan",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "4"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_iron_swan"
+    ],
+    "effects": [],
+    "isFriendly": false
+  },
+  "hel_iron_swan_u": {
+    "id": "hel_iron_swan_u",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_iron_swan"
+    ],
+    "effects": [
+      "prime_combo"
+    ],
+    "isFriendly": false
+  },
+  "hel_barbaric_yawp": {
+    "id": "hel_barbaric_yawp",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_ignore_stealth",
+      "til_nondamaging_attack",
+      "til_ignore_blind",
+      "add_1_weak",
+      "remove_all_stealth",
+      "add_1_strength",
+      "add_1_winded_per_target"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "hel_barbaric_yawp_u": {
+    "id": "hel_barbaric_yawp_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_ignore_stealth",
+      "til_nondamaging_attack",
+      "til_ignore_blind",
+      "add_1_weak",
+      "combo_add_1_stun",
+      "end_combo",
+      "remove_all_stealth",
+      "add_1_strength",
+      "add_1_winded_per_target"
+    ],
+    "isFriendly": false
+  },
+  "hel_if_it_bleeds": {
+    "id": "hel_if_it_bleeds",
+    "launchRanks": [
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_if_it_bleeds"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_medium_bleed",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "hel_if_it_bleeds_u": {
+    "id": "hel_if_it_bleeds_u",
+    "launchRanks": [
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "2",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_if_it_bleeds"
+    ],
+    "effects": [
+      "combo_increase_bleed_duration_1",
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_large_bleed",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "hel_breakthrough": {
+    "id": "hel_breakthrough",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_winded_per_target"
+    ],
+    "isFriendly": false
+  },
+  "hel_breakthrough_u": {
+    "id": "hel_breakthrough_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_winded_per_target",
+      "prime_combo_on_crit"
+    ],
+    "isFriendly": false
+  },
+  "hel_adrenaline_rush": {
+    "id": "hel_adrenaline_rush",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "hel_adrenaline_rush"
+    ],
+    "effects": [
+      "hel_adrenaline_winded_heal_bonus",
+      "heal_5pct",
+      "remove_all_bleed",
+      "hel_adrenaline_on_hit_heal_1_turn_e",
+      "remove_all_winded"
+    ],
+    "limit": "2",
+    "isFriendly": true
+  },
+  "hel_adrenaline_rush_u": {
+    "id": "hel_adrenaline_rush_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "hel_adrenaline_rush"
+    ],
+    "effects": [
+      "hel_adrenaline_winded_heal_bonus",
+      "heal_10pct",
+      "remove_all_bleed",
+      "remove_all_blight",
+      "remove_all_burn",
+      "hel_adrenaline_on_hit_heal_1_turn_e",
+      "remove_all_winded"
+    ],
+    "limit": "3",
+    "isFriendly": true
+  },
+  "hel_bleed_out": {
+    "id": "hel_bleed_out",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "1"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_bleed_out"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_large_bleed",
+      "end_combo",
+      "add_1_winded"
+    ],
+    "isFriendly": false
+  },
+  "hel_bleed_out_u": {
+    "id": "hel_bleed_out_u",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "1"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_bleed_out"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_massive_bleed",
+      "end_combo",
+      "add_1_winded"
+    ],
+    "isFriendly": false
+  },
+  "hel_toe_to_toe": {
+    "id": "hel_toe_to_toe",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_toe_to_toe"
+    ],
+    "effects": [
+      "move_forward_1",
+      "hel_toe_to_toe_convert_winded",
+      "add_1_immobilize_nr"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "hel_toe_to_toe_u": {
+    "id": "hel_toe_to_toe_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "hel_toe_to_toe"
+    ],
+    "effects": [
+      "til_ignore_winded_tool_tip",
+      "move_forward_1",
+      "hel_toe_to_toe_convert_winded",
+      "add_2_immobilize_nr"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "hel_bloodlust": {
+    "id": "hel_bloodlust",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "hel_bloodlust"
+    ],
+    "effects": [
+      "performer_has_1_or_more_winded",
+      "add_1_speed_if_1_winded",
+      "add_1_strength_if_2_winded",
+      "add_1_crit_if_3_winded",
+      "remove_all_winded"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_bloodlust_u": {
+    "id": "hel_bloodlust_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "hel_bloodlust"
+    ],
+    "effects": [
+      "add_1_speed_if_1_winded",
+      "add_1_strength_if_2_winded",
+      "add_1_crit_if_3_winded",
+      "remove_hel_bloodlust_buff",
+      "hel_bloodlust_u_execution_winded_1_e",
+      "remove_all_winded"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_howling_end": {
+    "id": "hel_howling_end",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "8",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "til_ignore_winded_tool_tip",
+      "performer_has_3_winded"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_howling_end_u": {
+    "id": "hel_howling_end_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "8",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "til_piercing",
+      "til_ignore_block",
+      "til_ignore_winded_tool_tip",
+      "performer_has_3_winded",
+      "ignored_token_remove_1_block_plus",
+      "ignored_token_remove_1_block"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_raucous_revelry": {
+    "id": "hel_raucous_revelry",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "stress_heal",
+      "hel_raucous_revelry"
+    ],
+    "effects": [
+      "add_1_winded",
+      "stress_heal_2_performer_at_threshold",
+      "remove_all_horror",
+      "heal_25pct_self_threshold_high",
+      "stress_heal_1_target_at_threshold"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_raucous_revelry_u": {
+    "id": "hel_raucous_revelry_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "stress_heal",
+      "hel_raucous_revelry"
+    ],
+    "effects": [
+      "add_1_winded",
+      "stress_heal_3_performer_at_threshold",
+      "remove_all_horror",
+      "heal_33pct_self_threshold_high",
+      "stress_heal_1_target_at_threshold",
+      "remove_all_horror_team",
+      "heal_amount_2"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_act_out_enemy": {
+    "id": "hel_act_out_enemy",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "act_out_enemy",
+      "hel_act_out_enemy"
+    ],
+    "effects": [
+      "dot_small_bleed"
+    ],
+    "isFriendly": false
+  },
+  "hel_act_out_friendly": {
+    "id": "hel_act_out_friendly",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "act_out_friendly",
+      "hel_act_out_friendly"
+    ],
+    "effects": [
+      "dot_small_bleed"
+    ],
+    "isFriendly": true
+  },
+  "hel_adrenaline_rush_p1": {
+    "id": "hel_adrenaline_rush_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "hel_adrenaline_rush"
+    ],
+    "effects": [
+      "hel_adrenaline_rush_p1_bleed_res_1",
+      "hel_adrenaline_rush_p1_bleed_res_2",
+      "hel_adrenaline_rush_p1_bleed_res_3",
+      "heal_10pct",
+      "remove_all_bleed",
+      "hel_adrenaline_p1_regen_1",
+      "remove_all_winded_p1"
+    ],
+    "limit": "2",
+    "isFriendly": true
+  },
+  "hel_adrenaline_rush_p1_u": {
+    "id": "hel_adrenaline_rush_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "hel_adrenaline_rush"
+    ],
+    "effects": [
+      "hel_adrenaline_rush_p1_u_dot_res_1",
+      "hel_adrenaline_rush_p1_u_dot_res_2",
+      "hel_adrenaline_rush_p1_u_dot_res_3",
+      "heal_10pct",
+      "remove_all_bleed",
+      "remove_all_blight",
+      "remove_all_burn",
+      "hel_adrenaline_p1_u_regen_2",
+      "remove_all_winded_p1"
+    ],
+    "limit": "3",
+    "isFriendly": true
+  },
+  "hel_barbaric_yawp_p1": {
+    "id": "hel_barbaric_yawp_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_ignore_dodge",
+      "remove_all_dodge",
+      "remove_all_dodge_plus",
+      "ignored_token_remove_1_dodge_plus",
+      "ignored_token_remove_1_dodge",
+      "prime_combo_25pct",
+      "add_1_winded_p1",
+      "prime_combo_on_crit"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "hel_barbaric_yawp_p1_u": {
+    "id": "hel_barbaric_yawp_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_ignore_dodge",
+      "remove_all_dodge",
+      "remove_all_dodge_plus",
+      "remove_anti_dodge_debuff",
+      "anti_dodge_2_rounds_e",
+      "ignored_token_remove_1_dodge_plus",
+      "ignored_token_remove_1_dodge",
+      "prime_combo_33pct",
+      "add_1_winded_p1",
+      "prime_combo_on_crit"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "hel_bleed_out_p1": {
+    "id": "hel_bleed_out_p1",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "1"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "hel_bleed_out"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_large_bleed",
+      "end_combo",
+      "add_1_winded_p1"
+    ],
+    "isFriendly": false
+  },
+  "hel_bleed_out_p1_u": {
+    "id": "hel_bleed_out_p1_u",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "1"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_bleed_out"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_massive_bleed",
+      "end_combo",
+      "add_1_winded_p1"
+    ],
+    "isFriendly": false
+  },
+  "hel_bloodlust_p1": {
+    "id": "hel_bloodlust_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "hel_bloodlust"
+    ],
+    "effects": [
+      "is_free_action",
+      "do_nothing_winded_icon",
+      "convert_winded_p1_to_dodge",
+      "hel_bloodlust_p1_damage_winded_0"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_bloodlust_p1_u": {
+    "id": "hel_bloodlust_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "hel_bloodlust"
+    ],
+    "effects": [
+      "is_free_action",
+      "do_nothing_winded_icon",
+      "convert_winded_p1_to_dodge_plus",
+      "hel_bloodlust_p1_u_damage_winded_0"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_breakthrough_p1": {
+    "id": "hel_breakthrough_p1",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "hel_howling_end_p1_deaths_door_dmg",
+      "performer_health_under_50pct",
+      "add_1_winded_p1",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_breakthrough_p1_u": {
+    "id": "hel_breakthrough_p1_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "5",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "hel_howling_end_p1_deaths_door_dmg",
+      "performer_health_under_50pct",
+      "add_1_winded_p1",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_howling_end_p1": {
+    "id": "hel_howling_end_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "8",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "hel_howling_end_p1_deaths_door_dmg",
+      "performer_health_under_50pct",
+      "add_1_winded_p1"
+    ],
+    "isFriendly": false
+  },
+  "hel_howling_end_p1_u": {
+    "id": "hel_howling_end_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "4",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "hel_howling_end_p1_deaths_door_dmg",
+      "performer_health_under_50pct",
+      "add_1_winded_p1"
+    ],
+    "isFriendly": false
+  },
+  "hel_raucous_revelry_p1": {
+    "id": "hel_raucous_revelry_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "stress_heal",
+      "hel_raucous_revelry"
+    ],
+    "effects": [
+      "add_1_winded_p1",
+      "stress_heal_2_performer_at_threshold",
+      "remove_all_horror",
+      "heal_25pct_self_threshold_high",
+      "stress_heal_1_target_at_threshold"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_raucous_revelry_p1_u": {
+    "id": "hel_raucous_revelry_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "stress_heal",
+      "hel_raucous_revelry"
+    ],
+    "effects": [
+      "add_1_winded_p1",
+      "stress_heal_3_performer_at_threshold",
+      "remove_all_horror",
+      "heal_33pct_self_threshold_high",
+      "stress_heal_1_target_at_threshold",
+      "remove_all_horror_team",
+      "heal_amount_2"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_barbaric_yawp_p2": {
+    "id": "hel_barbaric_yawp_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_ignore_stealth",
+      "til_nondamaging_attack",
+      "til_ignore_blind",
+      "add_1_weak",
+      "remove_all_stealth",
+      "add_1_strength",
+      "add_1_winded_p2_per_target"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "hel_barbaric_yawp_p2_u": {
+    "id": "hel_barbaric_yawp_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_ignore_stealth",
+      "til_nondamaging_attack",
+      "til_ignore_blind",
+      "add_1_weak",
+      "combo_add_1_stun",
+      "end_combo",
+      "remove_all_stealth",
+      "add_1_strength",
+      "add_1_winded_p2_per_target"
+    ],
+    "isFriendly": false
+  },
+  "hel_bleed_out_p2": {
+    "id": "hel_bleed_out_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_bleed_out"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_large_bleed",
+      "end_combo",
+      "add_1_winded_p2"
+    ],
+    "isFriendly": false
+  },
+  "hel_bleed_out_p2_u": {
+    "id": "hel_bleed_out_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "2",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_bleed_out"
+    ],
+    "effects": [
+      "combo_ignore_30pct_bleed_resist",
+      "skill_dot_massive_bleed",
+      "end_combo",
+      "add_1_winded_p2"
+    ],
+    "isFriendly": false
+  },
+  "hel_bloodlust_p2": {
+    "id": "hel_bloodlust_p2",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "hel_bloodlust"
+    ],
+    "effects": [
+      "is_free_action",
+      "performer_has_1_or_more_winded",
+      "remove_bloodlust_p2_crit_buffs",
+      "remove_bloodlust_p2_blocking_buff",
+      "hel_bloodlust_p2_passive_blocked_e",
+      "remove_all_winded_p2"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "hel_bloodlust_p2_u": {
+    "id": "hel_bloodlust_p2_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "hel_bloodlust"
+    ],
+    "effects": [
+      "is_free_action",
+      "performer_has_1_or_more_winded",
+      "remove_bloodlust_p2_crit_buffs",
+      "remove_bloodlust_p2_blocking_buff",
+      "hel_bloodlust_p2_passive_blocked_e",
+      "hel_bloodlust_p2_u_passive_blocked_e",
+      "remove_all_winded_p2"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "hel_breakthrough_p2": {
+    "id": "hel_breakthrough_p2",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "skill_dot_small_bleed",
+      "add_1_winded_p2",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_breakthrough_p2_u": {
+    "id": "hel_breakthrough_p2_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed",
+      "add_1_winded_p2",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_howling_end_p2": {
+    "id": "hel_howling_end_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "add_1_winded_p2",
+      "remove_all_bleed_on_crit",
+      "move_backward_1"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_howling_end_p2_u": {
+    "id": "hel_howling_end_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "add_1_winded_p2",
+      "remove_all_bleed_on_crit",
+      "move_backward_1"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_iron_swan_p2": {
+    "id": "hel_iron_swan_p2",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_iron_swan"
+    ],
+    "effects": [
+      "move_pull_1",
+      "skill_dot_medium_bleed",
+      "move_backward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_iron_swan_p2_u": {
+    "id": "hel_iron_swan_p2_u",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "4"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_iron_swan"
+    ],
+    "effects": [
+      "move_pull_1",
+      "skill_dot_large_bleed",
+      "move_backward_1",
+      "prime_combo_on_crit"
+    ],
+    "isFriendly": false
+  },
+  "hel_raucous_revelry_p2": {
+    "id": "hel_raucous_revelry_p2",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "stress_heal",
+      "hel_raucous_revelry"
+    ],
+    "effects": [
+      "add_1_winded_p2",
+      "stress_heal_2_performer_at_threshold",
+      "remove_all_horror",
+      "heal_25pct_self_threshold_high",
+      "stress_heal_1_target_at_threshold"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_raucous_revelry_p2_u": {
+    "id": "hel_raucous_revelry_p2_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "stress_heal",
+      "hel_raucous_revelry"
+    ],
+    "effects": [
+      "add_1_winded_p2",
+      "stress_heal_3_performer_at_threshold",
+      "remove_all_horror",
+      "heal_33pct_self_threshold_high",
+      "stress_heal_1_target_at_threshold",
+      "remove_all_horror_team",
+      "heal_amount_2"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "hel_barbaric_yawp_p3": {
+    "id": "hel_barbaric_yawp_p3",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "til_ignore_blind",
+      "add_1_weak_hidden",
+      "add_2_taunt_nr",
+      "add_1_winded_hidden"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_barbaric_yawp_p3_u": {
+    "id": "hel_barbaric_yawp_p3_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "hel_barbaric_yawp"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "til_ignore_blind",
+      "add_1_weak_hidden",
+      "combo_add_1_stun_hidden",
+      "end_combo",
+      "add_2_taunt_nr",
+      "add_1_winded_hidden"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_breakthrough_p3": {
+    "id": "hel_breakthrough_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "til_ignore_winded_tool_tip",
+      "add_1_winded_p3_enemy",
+      "add_2_winded_p3_enemy",
+      "move_forward_1",
+      "remove_all_winded"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_breakthrough_p3_u": {
+    "id": "hel_breakthrough_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_breakthrough"
+    ],
+    "effects": [
+      "til_ignore_winded_tool_tip",
+      "add_1_winded_p3_enemy",
+      "add_2_winded_p3_enemy",
+      "add_3_winded_p3_enemy",
+      "move_forward_1",
+      "remove_all_winded"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_howling_end_p3": {
+    "id": "hel_howling_end_p3",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "8",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "til_ignore_winded_tool_tip",
+      "performer_has_3_winded",
+      "remove_all_winded"
+    ],
+    "isFriendly": false
+  },
+  "hel_howling_end_p3_u": {
+    "id": "hel_howling_end_p3_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "8",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "hel_howling_end"
+    ],
+    "effects": [
+      "til_piercing",
+      "til_ignore_block",
+      "til_ignore_winded_tool_tip",
+      "performer_has_3_winded",
+      "ignored_token_remove_1_block_plus",
+      "ignored_token_remove_1_block",
+      "convert_all_block_to_block_plus",
+      "remove_all_winded"
+    ],
+    "isFriendly": false
+  },
+  "hel_iron_swan_p3": {
+    "id": "hel_iron_swan_p3",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "4"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "4",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_iron_swan"
+    ],
+    "effects": [
+      "move_pull_2",
+      "add_1_speed",
+      "move_backward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_iron_swan_p3_u": {
+    "id": "hel_iron_swan_p3_u",
+    "launchRanks": [
+      "1"
+    ],
+    "targetRanks": [
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "4",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_iron_swan"
+    ],
+    "effects": [
+      "til_ignore_guard",
+      "move_pull_2",
+      "ignored_token_remove_1_guard",
+      "remove_all_guard",
+      "add_1_speed",
+      "move_backward_1"
+    ],
+    "isFriendly": false
+  },
+  "hel_toe_to_toe_p3": {
+    "id": "hel_toe_to_toe_p3",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_toe_to_toe"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_winded",
+      "hel_add_1_taunt_winded_1",
+      "hel_add_2_taunt_winded_2",
+      "hel_add_3_taunt_winded_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "hel_toe_to_toe_p3_u": {
+    "id": "hel_toe_to_toe_p3_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "winded",
+      "hel_toe_to_toe"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_winded",
+      "hel_add_1_taunt_winded_1",
+      "hel_add_2_taunt_winded_2",
+      "hel_add_3_taunt_winded_3",
+      "add_1_winded_if_target_is_large"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  }
+}

@@ -1,0 +1,1527 @@
+{
+  "plague_doctor_corpse": {
+    "id": "plague_doctor_corpse",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "15"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "plague_doctor": {
+    "id": "plague_doctor",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "30",
+      "speed": "4",
+      "stress_max": "10",
+      "deaths_door_chance": "1",
+      "speed_number_of_turns": "1",
+      "health_heal_percent_between_nodes": "0.1",
+      "route_choice_chance": "0.67"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "pd_move": {
+    "id": "pd_move",
+    "launchRanks": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "move"
+    ],
+    "effects": [],
+    "isFriendly": true
+  },
+  "pd_noxious_blast": {
+    "id": "pd_noxious_blast",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_noxious_blast"
+    ],
+    "effects": [
+      "skill_dot_large_blight",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_noxious_blast_u": {
+    "id": "pd_noxious_blast_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "1",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_noxious_blast"
+    ],
+    "effects": [
+      "skill_dot_very_large_blight",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_plague_grenade": {
+    "id": "pd_plague_grenade",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "1",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_plague_grenade"
+    ],
+    "effects": [
+      "skill_dot_medium_blight"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_plague_grenade_u": {
+    "id": "pd_plague_grenade_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_plague_grenade"
+    ],
+    "effects": [
+      "skill_dot_large_blight"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_blinding_gas": {
+    "id": "pd_blinding_gas",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_blinding_gas"
+    ],
+    "effects": [
+      "add_1_blind",
+      "prime_combo_25pct"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_blinding_gas_u": {
+    "id": "pd_blinding_gas_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "pd_blinding_gas"
+    ],
+    "effects": [
+      "add_1_blind",
+      "add_1_daze",
+      "prime_combo_33pct"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_incision": {
+    "id": "pd_incision",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "pd_incision"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_incision_u": {
+    "id": "pd_incision_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "pd_incision"
+    ],
+    "effects": [
+      "skill_dot_large_bleed",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_battlefield_medicine": {
+    "id": "pd_battlefield_medicine",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "pd_battlefield_medicine"
+    ],
+    "effects": [
+      "heal_20pct_target_threshold_high",
+      "remove_all_dots"
+    ],
+    "limit": "3",
+    "isFriendly": true
+  },
+  "pd_battlefield_medicine_u": {
+    "id": "pd_battlefield_medicine_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "pd_battlefield_medicine"
+    ],
+    "effects": [
+      "heal_25pct_target_threshold_high",
+      "remove_all_dots"
+    ],
+    "limit": "3",
+    "isFriendly": true
+  },
+  "pd_emboldening_vapours": {
+    "id": "pd_emboldening_vapours",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_emboldening_vapours"
+    ],
+    "effects": [
+      "add_2_strength",
+      "remove_all_daze"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "pd_emboldening_vapours_u": {
+    "id": "pd_emboldening_vapours_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_emboldening_vapours"
+    ],
+    "effects": [
+      "add_2_strength",
+      "add_1_speed",
+      "remove_all_stun_type_tokens"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "pd_disorienting_blast": {
+    "id": "pd_disorienting_blast",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "move_shuffle",
+      "add_1_daze",
+      "remove_all_guard"
+    ],
+    "isFriendly": false
+  },
+  "pd_disorienting_blast_u": {
+    "id": "pd_disorienting_blast_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "move_shuffle",
+      "add_1_daze",
+      "add_1_weak",
+      "end_combo",
+      "remove_all_guard",
+      "combo_add_1_stun"
+    ],
+    "isFriendly": false
+  },
+  "pd_ounce_of_prevention": {
+    "id": "pd_ounce_of_prevention",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_ounce_of_prevention"
+    ],
+    "effects": [
+      "pd_ounce_of_prevention_dot_res",
+      "pd_ounce_of_prevention_disease_res"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "pd_ounce_of_prevention_u": {
+    "id": "pd_ounce_of_prevention_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_ounce_of_prevention"
+    ],
+    "effects": [
+      "pd_ounce_of_prevention_dot_res_u",
+      "pd_ounce_of_prevention_disease_res_u",
+      "generic_debuff_res_buff_10pct_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "pd_indiscriminate_science": {
+    "id": "pd_indiscriminate_science",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "pd_indiscriminate_science"
+    ],
+    "effects": [
+      "pd_indiscriminate_science_heal",
+      "destroy_all_positive_tokens_hidden"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "pd_indiscriminate_science_u": {
+    "id": "pd_indiscriminate_science_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "pd_indiscriminate_science"
+    ],
+    "effects": [
+      "pd_indiscriminate_science_heal",
+      "destroy_all_positive_tokens_hidden",
+      "destroy_all_negative_tokens_hidden"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "pd_cause_of_death": {
+    "id": "pd_cause_of_death",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_cause_of_death"
+    ],
+    "effects": [
+      "fake_plague_doctor_cause_of_death_tool_tip",
+      "remove_all_bleed",
+      "remove_all_blight",
+      "remove_all_burn"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_cause_of_death_u": {
+    "id": "pd_cause_of_death_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_cause_of_death"
+    ],
+    "effects": [
+      "fake_plague_doctor_cause_of_death_u_tool_tip",
+      "remove_all_bleed",
+      "remove_all_blight",
+      "remove_all_burn"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_magnesium_rain": {
+    "id": "pd_magnesium_rain",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_magnesium_rain"
+    ],
+    "effects": [
+      "skill_dot_medium_burn"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_magnesium_rain_u": {
+    "id": "pd_magnesium_rain_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_magnesium_rain"
+    ],
+    "effects": [
+      "skill_dot_medium_burn"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_act_out_enemy": {
+    "id": "pd_act_out_enemy",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "act_out_enemy",
+      "pd_act_out_enemy"
+    ],
+    "effects": [
+      "skill_dot_small_blight"
+    ],
+    "isFriendly": false
+  },
+  "pd_act_out_friendly": {
+    "id": "pd_act_out_friendly",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "act_out_friendly",
+      "pd_act_out_friendly"
+    ],
+    "effects": [
+      "skill_dot_small_blight"
+    ],
+    "isFriendly": true
+  },
+  "pd_battlefield_medicine_p1": {
+    "id": "pd_battlefield_medicine_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "pd_battlefield_medicine"
+    ],
+    "effects": [
+      "heal_20pct_target_threshold_high",
+      "remove_all_dots"
+    ],
+    "limit": "3",
+    "isFriendly": true
+  },
+  "pd_battlefield_medicine_p1_u": {
+    "id": "pd_battlefield_medicine_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "pd_battlefield_medicine"
+    ],
+    "effects": [
+      "heal_25pct_target_threshold_high",
+      "remove_all_dots"
+    ],
+    "limit": "3",
+    "isFriendly": true
+  },
+  "pd_cause_of_death_p1": {
+    "id": "pd_cause_of_death_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_cause_of_death"
+    ],
+    "effects": [],
+    "limit": "1",
+    "isFriendly": false
+  },
+  "pd_cause_of_death_p1_u": {
+    "id": "pd_cause_of_death_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_cause_of_death"
+    ],
+    "effects": [],
+    "limit": "1",
+    "isFriendly": false
+  },
+  "pd_disorienting_blast_p1": {
+    "id": "pd_disorienting_blast_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "1",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "move_knockback_1",
+      "add_1_daze"
+    ],
+    "isFriendly": false
+  },
+  "pd_disorienting_blast_p1_u": {
+    "id": "pd_disorienting_blast_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "move_knockback_2",
+      "add_1_daze"
+    ],
+    "isFriendly": false
+  },
+  "pd_emboldening_vapours_p1": {
+    "id": "pd_emboldening_vapours_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_emboldening_vapours"
+    ],
+    "effects": [
+      "add_1_strength",
+      "add_1_block"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "pd_emboldening_vapours_p1_u": {
+    "id": "pd_emboldening_vapours_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_emboldening_vapours"
+    ],
+    "effects": [
+      "add_1_strength",
+      "add_1_block"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "pd_incision_p1": {
+    "id": "pd_incision_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "pd_incision"
+    ],
+    "effects": [
+      "skill_dot_small_bleed",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_incision_p1_u": {
+    "id": "pd_incision_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "pd_incision"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_ounce_of_prevention_p1": {
+    "id": "pd_ounce_of_prevention_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_ounce_of_prevention"
+    ],
+    "effects": [
+      "pd_ounce_of_prevention_p1_stun_res_e",
+      "pd_ounce_of_prevention_p1_move_res_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "pd_ounce_of_prevention_p1_u": {
+    "id": "pd_ounce_of_prevention_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_ounce_of_prevention"
+    ],
+    "effects": [
+      "pd_ounce_of_prevention_p1_stun_res_e",
+      "pd_ounce_of_prevention_p1_move_res_e",
+      "generic_debuff_res_buff_10pct_e",
+      "pd_ounce_of_prevention_p1_u_stress_res_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "pd_cause_of_death_p2": {
+    "id": "pd_cause_of_death_p2",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "pd_cause_of_death"
+    ],
+    "effects": [],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_cause_of_death_p2_u": {
+    "id": "pd_cause_of_death_p2_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "3",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "pd_cause_of_death"
+    ],
+    "effects": [],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_disorienting_blast_p2": {
+    "id": "pd_disorienting_blast_p2",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "add_1_daze",
+      "skill_dot_medium_burn"
+    ],
+    "isFriendly": false
+  },
+  "pd_disorienting_blast_p2_u": {
+    "id": "pd_disorienting_blast_p2_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "1",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "add_1_daze",
+      "skill_dot_large_burn"
+    ],
+    "isFriendly": false
+  },
+  "pd_magnesium_rain_p2": {
+    "id": "pd_magnesium_rain_p2",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "2",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_magnesium_rain"
+    ],
+    "effects": [
+      "skill_dot_small_bleed_vs_blight",
+      "skill_dot_small_blight_vs_bleed",
+      "skill_dot_small_burn"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_magnesium_rain_p2_u": {
+    "id": "pd_magnesium_rain_p2_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "pd_magnesium_rain"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed_vs_blight",
+      "skill_dot_medium_blight_vs_bleed",
+      "skill_dot_medium_burn"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_noxious_blast_p2": {
+    "id": "pd_noxious_blast_p2",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "pd_noxious_blast"
+    ],
+    "effects": [
+      "skill_dot_very_large_blight"
+    ],
+    "isFriendly": false
+  },
+  "pd_noxious_blast_p2_u": {
+    "id": "pd_noxious_blast_p2_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "crit_chance": "0.2"
+    },
+    "tags": [
+      "ranged",
+      "pd_noxious_blast"
+    ],
+    "effects": [
+      "skill_dot_massive_blight"
+    ],
+    "isFriendly": false
+  },
+  "pd_plague_grenade_p2": {
+    "id": "pd_plague_grenade_p2",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_plague_grenade"
+    ],
+    "effects": [
+      "skill_dot_large_blight"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_plague_grenade_p2_u": {
+    "id": "pd_plague_grenade_p2_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "pd_plague_grenade"
+    ],
+    "effects": [
+      "skill_dot_very_large_blight"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "pd_cause_of_death_p3": {
+    "id": "pd_cause_of_death_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "pd_cause_of_death"
+    ],
+    "effects": [
+      "pd_cause_of_death_p3_both_buffs"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "pd_cause_of_death_p3_u": {
+    "id": "pd_cause_of_death_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "pd_cause_of_death"
+    ],
+    "effects": [
+      "pd_cause_of_death_p3_u_both_buffs"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_disorienting_blast_p3": {
+    "id": "pd_disorienting_blast_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "move_shuffle",
+      "add_1_daze",
+      "remove_all_riposte"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_disorienting_blast_p3_u": {
+    "id": "pd_disorienting_blast_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "pd_disorienting_blast"
+    ],
+    "effects": [
+      "move_shuffle",
+      "add_1_daze",
+      "add_1_vulnerable",
+      "remove_all_riposte"
+    ],
+    "isFriendly": false,
+    "cooldown": "2"
+  },
+  "pd_emboldening_vapours_p3": {
+    "id": "pd_emboldening_vapours_p3",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_emboldening_vapours"
+    ],
+    "effects": [
+      "pd_vapours_p3_do_nothing_do_not_remove_e",
+      "pd_vapours_p3_convert_weak",
+      "pd_vapours_p3_convert_vuln",
+      "pd_vapours_p3_convert_blind",
+      "pd_vapours_p3_convert_daze"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "pd_emboldening_vapours_p3_u": {
+    "id": "pd_emboldening_vapours_p3_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_emboldening_vapours"
+    ],
+    "effects": [
+      "pd_vapours_p3_do_nothing_do_not_remove_e",
+      "pd_vapours_p3_u_convert_weak_strength",
+      "pd_vapours_p3_u_convert_vulnerable",
+      "pd_vapours_p3_u_convert_blind",
+      "pd_vapours_p3_convert_daze",
+      "pd_vapours_p3_u_convert_stun"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "pd_incision_p3": {
+    "id": "pd_incision_p3",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "pd_incision"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed",
+      "prime_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_incision_p3_u": {
+    "id": "pd_incision_p3_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "pd_incision"
+    ],
+    "effects": [
+      "skill_dot_large_bleed",
+      "prime_combo"
+    ],
+    "isFriendly": false
+  },
+  "pd_noxious_blast_p3": {
+    "id": "pd_noxious_blast_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "pd_noxious_blast"
+    ],
+    "effects": [
+      "skill_dot_medium_blight",
+      "end_combo",
+      "add_1_weak"
+    ],
+    "isFriendly": false
+  },
+  "pd_noxious_blast_p3_u": {
+    "id": "pd_noxious_blast_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "1",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "pd_noxious_blast"
+    ],
+    "effects": [
+      "add_1_weak",
+      "pd_noxious_blast_p3_combo_weak",
+      "end_combo",
+      "skill_dot_large_blight"
+    ],
+    "isFriendly": false
+  },
+  "pd_ounce_of_prevention_p3": {
+    "id": "pd_ounce_of_prevention_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_ounce_of_prevention"
+    ],
+    "effects": [
+      "pd_ounce_of_prevention_dot_res",
+      "pd_ounce_of_prevention_disease_res"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "pd_ounce_of_prevention_p3_u": {
+    "id": "pd_ounce_of_prevention_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "pd_ounce_of_prevention"
+    ],
+    "effects": [
+      "pd_ounce_of_prevention_dot_res_u",
+      "pd_ounce_of_prevention_disease_res_u",
+      "pd_ounce_of_prevention_p3_u_stress_res_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  }
+}
