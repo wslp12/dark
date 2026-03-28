@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "다키스트던전2 스텟 수정",
   "license": "MIT",
-  "author": "",
+  "author": "jimmy",
   "main": "main.js",
   "type": "commonjs",
   "scripts": {
