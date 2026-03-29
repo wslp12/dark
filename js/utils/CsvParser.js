@@ -35,7 +35,7 @@ class CsvParser {
     }
 
     static readCSVLines(filePath) {
-        return fs.readFileSync(filePath, 'utf8').split('\n');
+        return fs.readFileSync(filePath, 'utf8').split('\n').map(l => l.trim().replace(/\r/g, ''));
     }
 }
 

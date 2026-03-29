@@ -1,0 +1,1102 @@
+{
+  "crusader_corpse": {
+    "id": "crusader_corpse",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "18"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "crusader": {
+    "id": "crusader",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "40",
+      "speed": "2",
+      "stress_max": "10",
+      "deaths_door_chance": "1",
+      "speed_number_of_turns": "1",
+      "health_heal_percent_between_nodes": "0.1",
+      "route_choice_chance": "0.67"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "cru_move": {
+    "id": "cru_move",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "move"
+    ],
+    "effects": [],
+    "isFriendly": true
+  },
+  "cru_smite": {
+    "id": "cru_smite",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_smite"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_smite_u": {
+    "id": "cru_smite_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "7",
+      "health_damage_range": "2",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "cru_smite"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_stunning_blow": {
+    "id": "cru_stunning_blow",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_stunning_blow"
+    ],
+    "effects": [
+      "combo_add_1_stun",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_stunning_blow_u": {
+    "id": "cru_stunning_blow_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "2",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "cru_stunning_blow"
+    ],
+    "effects": [
+      "combo_add_1_stun",
+      "remove_all_strength",
+      "remove_all_crit",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_holy_lance": {
+    "id": "cru_holy_lance",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "cru_holy_lance"
+    ],
+    "effects": [
+      "skill_dot_small_burn",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "cru_holy_lance_u": {
+    "id": "cru_holy_lance_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "4",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "ranged",
+      "cru_holy_lance"
+    ],
+    "effects": [
+      "skill_dot_medium_burn",
+      "prime_combo",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "cru_zealous_accusation": {
+    "id": "cru_zealous_accusation",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "1",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "cru_zealous_accusation"
+    ],
+    "effects": [
+      "skill_dot_small_burn",
+      "prime_combo_25pct"
+    ],
+    "isFriendly": false
+  },
+  "cru_zealous_accusation_u": {
+    "id": "cru_zealous_accusation_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "cru_zealous_accusation"
+    ],
+    "effects": [
+      "skill_dot_medium_burn",
+      "prime_combo_33pct"
+    ],
+    "isFriendly": false
+  },
+  "cru_bulwark_of_faith": {
+    "id": "cru_bulwark_of_faith",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "cru_bulwark_of_faith"
+    ],
+    "effects": [
+      "add_2_block",
+      "add_2_taunt_nr",
+      "hot_heal_small"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_bulwark_of_faith_u": {
+    "id": "cru_bulwark_of_faith_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "heal",
+      "cru_bulwark_of_faith"
+    ],
+    "effects": [
+      "add_2_block",
+      "add_3_taunt_nr",
+      "hot_heal_large"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_battle_heal": {
+    "id": "cru_battle_heal",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "cru_battle_heal"
+    ],
+    "effects": [
+      "heal_20pct"
+    ],
+    "limit": "3",
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_battle_heal_u": {
+    "id": "cru_battle_heal_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "cru_battle_heal"
+    ],
+    "effects": [
+      "heal_25pct",
+      "heal_10pct"
+    ],
+    "limit": "3",
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "cru_inspiring_cry": {
+    "id": "cru_inspiring_cry",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "cru_inspiring_cry"
+    ],
+    "effects": [
+      "stress_heal_2"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "cru_inspiring_cry_u": {
+    "id": "cru_inspiring_cry_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "cru_inspiring_cry"
+    ],
+    "effects": [
+      "stress_heal_2",
+      "stress_heal_1"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "cru_rallying_cry": {
+    "id": "cru_rallying_cry",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_rallying_cry"
+    ],
+    "effects": [
+      "remove_all_blind",
+      "remove_all_weak",
+      "remove_all_vulnerable"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "cru_rallying_cry_u": {
+    "id": "cru_rallying_cry_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_rallying_cry"
+    ],
+    "effects": [
+      "remove_all_blind",
+      "remove_all_weak",
+      "remove_all_vulnerable"
+    ],
+    "isFriendly": true
+  },
+  "cru_reap": {
+    "id": "cru_reap",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_reap"
+    ],
+    "effects": [
+      "cru_reap_heal_debuff_e"
+    ],
+    "isFriendly": false
+  },
+  "cru_reap_u": {
+    "id": "cru_reap_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_reap"
+    ],
+    "effects": [
+      "cru_reap_u_heal_debuff_e",
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_radiance": {
+    "id": "cru_radiance",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "cru_radiance"
+    ],
+    "effects": [
+      "hot_heal_small",
+      "cru_radiance_spd_buff_e",
+      "cru_radiance_ranged_bonus_e",
+      "cru_radiance_melee_bonus_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "4"
+  },
+  "cru_radiance_u": {
+    "id": "cru_radiance_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "cru_radiance"
+    ],
+    "effects": [
+      "cru_radiance_u_hot",
+      "cru_radiance_u_spd_buff",
+      "cru_radiance_u_ranged_bonus_e",
+      "cru_radiance_u_melee_bonus_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "cru_tenacity": {
+    "id": "cru_tenacity",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "add_2_block"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_tenacity_u": {
+    "id": "cru_tenacity_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "add_2_block",
+      "generic_debuff_res_buff_10pct_e",
+      "add_1_block"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_act_out_enemy": {
+    "id": "cru_act_out_enemy",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "act_out_enemy",
+      "cru_act_out_enemy"
+    ],
+    "effects": [],
+    "isFriendly": false
+  },
+  "cru_act_out_friendly": {
+    "id": "cru_act_out_friendly",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "act_out_friendly",
+      "cru_act_out_friendly"
+    ],
+    "effects": [],
+    "isFriendly": true
+  },
+  "cru_smite_p1": {
+    "id": "cru_smite_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_smite"
+    ],
+    "effects": [
+      "execution_1_burn_tooltip"
+    ],
+    "isFriendly": false
+  },
+  "cru_smite_p1_u": {
+    "id": "cru_smite_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "7",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "cru_smite"
+    ],
+    "effects": [
+      "execution_2_burn_tooltip"
+    ],
+    "isFriendly": false
+  },
+  "cru_reap_p1": {
+    "id": "cru_reap_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_reap"
+    ],
+    "effects": [
+      "execution_1_burn_tooltip",
+      "cru_reap_heal_debuff_e"
+    ],
+    "isFriendly": false
+  },
+  "cru_reap_p1_u": {
+    "id": "cru_reap_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_reap"
+    ],
+    "effects": [
+      "execution_1_burn_tooltip",
+      "cru_reap_u_heal_debuff_e"
+    ],
+    "isFriendly": false
+  },
+  "cru_tenacity_p1": {
+    "id": "cru_tenacity_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "cru_tenacity_p1_burn_heal_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "4"
+  },
+  "cru_tenacity_p1_u": {
+    "id": "cru_tenacity_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "cru_tenacity_p1_u_burn_heal_e",
+      "generic_debuff_res_buff_20pct_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "4"
+  },
+  "cru_smite_p2": {
+    "id": "cru_smite_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "5",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "cru_smite"
+    ],
+    "effects": [
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_smite_p2_u": {
+    "id": "cru_smite_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2"
+    ],
+    "stats": {
+      "health_damage": "7",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "cru_smite"
+    ],
+    "effects": [
+      "end_combo"
+    ],
+    "isFriendly": false
+  },
+  "cru_rallying_cry_p2": {
+    "id": "cru_rallying_cry_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_rallying_cry"
+    ],
+    "effects": [
+      "add_2_guard",
+      "cru_rally_p2_u_healing_received_buff_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_rallying_cry_p2_u": {
+    "id": "cru_rallying_cry_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_rallying_cry"
+    ],
+    "effects": [
+      "add_3_guard",
+      "cru_rally_p2_u_healing_received_buff_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_tenacity_p2": {
+    "id": "cru_tenacity_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "add_2_block",
+      "cru_tenacity_healing_received_buff_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_tenacity_p2_u": {
+    "id": "cru_tenacity_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "add_3_block",
+      "generic_debuff_res_buff_20pct_e",
+      "cru_tenacity_u_healing_received_buff_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_zealous_accusation_p3": {
+    "id": "cru_zealous_accusation_p3",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "1",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "cru_zealous_accusation"
+    ],
+    "effects": [
+      "skill_dot_small_burn",
+      "prime_combo_25pct"
+    ],
+    "isFriendly": false
+  },
+  "cru_zealous_accusation_p3_u": {
+    "id": "cru_zealous_accusation_p3_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "1",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "cru_zealous_accusation"
+    ],
+    "effects": [
+      "skill_dot_medium_burn",
+      "prime_combo_33pct"
+    ],
+    "isFriendly": false
+  },
+  "cru_battle_heal_p3": {
+    "id": "cru_battle_heal_p3",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "cru_battle_heal"
+    ],
+    "effects": [
+      "heal_20pct"
+    ],
+    "limit": "4",
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "cru_battle_heal_p3_u": {
+    "id": "cru_battle_heal_p3_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "heal",
+      "cru_battle_heal"
+    ],
+    "effects": [
+      "heal_30pct"
+    ],
+    "limit": "4",
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "cru_rallying_cry_p3": {
+    "id": "cru_rallying_cry_p3",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_rallying_cry"
+    ],
+    "effects": [
+      "add_1_immobilize_nr"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "cru_rallying_cry_p3_u": {
+    "id": "cru_rallying_cry_p3_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_rallying_cry"
+    ],
+    "effects": [
+      "add_2_immobilize_nr"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "cru_tenacity_p3": {
+    "id": "cru_tenacity_p3",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "add_1_block"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "cru_tenacity_p3_u": {
+    "id": "cru_tenacity_p3_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "cru_tenacity"
+    ],
+    "effects": [
+      "add_1_block",
+      "remove_all_stun_type_tokens"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  }
+}

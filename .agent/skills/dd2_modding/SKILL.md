@@ -37,9 +37,13 @@ Darkest Dungeon 2의 CSV 파일은 `element_start` ~ `element_end` 블록으로 
 
 모듈화된 구조에 따라, 특정 기능을 수정할 때는 해당 매니저 클래스의 **정적(static) 속성**을 수정해야 합니다.
 
-### A. 새로운 영웅 추가 시 (`HeroManager.js`)
-1. `HeroManager.HERO_DATA` 정적 객체 안에 새 영웅의 고유 Key(예: `lep`)를 생성합니다.
-2. `title`, `fileName`, `originalJson`, `baseSkillIds`, `skillNameMap`, `paths`를 세팅합니다.
+### A. 새로운 영웅 추가 시
+1. **HeroManager.js**: `HeroManager.HERO_DATA` 정적 객체 안에 새 영웅의 고유 Key(예: `cru`)를 생성하고, `title`, `fileName`, `originalJson`, `baseActorId`, `baseSkillIds`, `skillNameMap`, `paths`를 정의합니다.
+   - **중요**: `baseActorId`는 반드시 CSV 파일의 `ActorDataStats` 행에 정의된 이름(예: `plague_doctor`, `hellion` 등)과 정확히 일치해야 합니다. (이것이 틀리면 기본 능력치 수정 영역이 나타나지 않습니다.)
+2. **main.js**: 상단 메뉴바의 `👤 영웅` 서브메뉴(submenu)에 새로운 자식 항목을 추가하여 `switch-to-hero` 이벤트를 발생시키도록 등록합니다.
+3. **EffectManager.js**: 해당 영웅이 사용하는 고유 효과가 `effectNameMap`과 `FIELD_MANAGED_EFFECTS`에 등록되어 있는지 확인합니다.
+
+
 
 ### B. 새로운 스킬 효과(Effect) 활성화 시 (`EffectManager.js`)
 효과를 에디터 UI에 노출시키고 정상 저장되도록 하려면 다음을 추가합니다.

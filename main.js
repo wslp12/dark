@@ -12,8 +12,16 @@ const createWindow = () => {
 
     const template = [
         {
-            label: '📁 경로 설정',
+            label: '🛡️ 설정/편집',
             submenu: [
+                { label: '되돌리기', role: 'undo' },
+                { label: '다시 실행', role: 'redo' },
+                { type: 'separator' },
+                { label: '잘라내기', role: 'cut' },
+                { label: '복사', role: 'copy' },
+                { label: '붙여넣기', role: 'paste' },
+                { label: '모두 선택', role: 'selectAll' },
+                { type: 'separator' },
                 {
                     label: '현재 경로 확인',
                     click: () => win.webContents.send('show-current-path')
@@ -46,7 +54,17 @@ const createWindow = () => {
                 {
                     label: '🪓 야만인',
                     click: () => win.webContents.send('switch-to-hero', 'hel')
+                },
+                {
+                    label: '⚔️ 성전사',
+                    click: () => win.webContents.send('switch-to-hero', 'cru')
+                },
+                {
+                    label: '🎸 광대',
+                    click: () => win.webContents.send('switch-to-hero', 'jes')
                 }
+
+
             ]
         },
         {

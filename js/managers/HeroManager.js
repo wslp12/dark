@@ -14,11 +14,83 @@ class HeroManager {
         },
         pd: {
             title: "Plague Doctor Stats", fileName: "hero_pd_data_export.Group.csv", originalJson: "original_stats_pd.json",
-            baseActorId: "pd",
-            baseSkillIds: ['pd_noxious_blast', 'pd_plague_grenade', 'pd_blinding_gas', 'pd_incision', 'pd_battlefield_medicine', 'pd_emboldening_vapours', 'pd_disorienting_blast', 'pd_ounce_of_prevention', 'pd_indiscriminate_science', 'pd_cause_of_death', 'pd_magnesium_rain'],
-            skillNameMap: { 'pd_noxious_blast': '유독 기체 폭발 (Noxious Blast)', 'pd_plague_grenade': '역병 수류탄 (Plague Grenade)', 'pd_blinding_gas': '실명 가스 (Blinding Gas)', 'pd_incision': '절개 (Incision)', 'pd_battlefield_medicine': '야전 의술 (Battlefield Medicine)', 'pd_emboldening_vapours': '고양의 증기 (Emboldening Vapours)', 'pd_disorienting_blast': '혼란 기체 폭발 (Disorienting Blast)', 'pd_ounce_of_prevention': '예방 조치 (Ounce of Prevention)', 'pd_indiscriminate_science': '무차별적 과학 (Indiscriminate Science)', 'pd_cause_of_death': '사인 (Cause of Death)', 'pd_magnesium_rain': '마그네슘 비 (Magnesium Rain)' },
-            paths: [{ id: 'wanderer', name: '방랑자 (Wanderer)', suffix: '' }, { id: 'surgeon', name: '외과의 (Surgeon)', suffix: '_p1' }, { id: 'alchemist', name: '연금술사 (Alchemist)', suffix: '_p2' }, { id: 'physician', name: '내과의 (Physician)', suffix: '_p3' }]
+            baseActorId: "plague_doctor",
+
+            baseSkillIds: [
+                'pd_noxious_blast', 'pd_plague_grenade', 'pd_blinding_gas', 'pd_incision', 
+                'pd_battlefield_medicine', 'pd_emboldening_vapours', 'pd_disorienting_blast', 'pd_ounce_of_prevention', 
+                'pd_indiscriminate_science', 'pd_cause_of_death', 'pd_magnesium_rain'
+            ],
+            skillNameMap: { 
+                'pd_noxious_blast': '유독 기체 폭발 (Noxious Blast)', 
+                'pd_plague_grenade': '역병 수류탄 (Plague Grenade)', 
+                'pd_blinding_gas': '실명 가스 (Blinding Gas)', 
+                'pd_incision': '절개 (Incision)', 
+                'pd_battlefield_medicine': '야전 의술 (Battlefield Medicine)', 
+                'pd_emboldening_vapours': '고양의 증기 (Emboldening Vapours)', 
+                'pd_disorienting_blast': '혼란 기체 폭발 (Disorienting Blast)', 
+                'pd_ounce_of_prevention': '예방 조치 (Ounce of Prevention)', 
+                'pd_indiscriminate_science': '무차별적 과학 (Indiscriminate Science)', 
+                'pd_cause_of_death': '사인 (Cause of Death)', 
+                'pd_magnesium_rain': '마그네슘 비 (Magnesium Rain)' 
+            },
+            paths: [
+                { id: 'wanderer', name: '방랑자 (Wanderer)', suffix: '' }, 
+                { id: 'surgeon', name: '외과의 (Surgeon)', suffix: '_p1' }, 
+                { id: 'alchemist', name: '연금술사 (Alchemist)', suffix: '_p2' }, 
+                { id: 'physician', name: '내과의 (Physician)', suffix: '_p3' }
+            ]
+        },
+
+        cru: {
+            title: "Crusader Stats", fileName: "dlc_dul_cru/hero_cru_data_export.Group.csv", originalJson: "original_stats_cru.json",
+            baseActorId: "crusader",
+            baseSkillIds: ['cru_smite', 'cru_stunning_blow', 'cru_holy_lance', 'cru_zealous_accusation', 'cru_bulwark_of_faith', 'cru_battle_heal', 'cru_inspiring_cry', 'cru_rallying_cry', 'cru_reap', 'cru_radiance', 'cru_tenacity'],
+            skillNameMap: { 
+                'cru_smite': '강타 (Smite)', 
+                'cru_stunning_blow': '기절의 일격 (Stunning Blow)', 
+                'cru_holy_lance': '성스러운 돌격 (Holy Lance)', 
+                'cru_zealous_accusation': '열성적인 고발 (Zealous Accusation)', 
+                'cru_bulwark_of_faith': '믿음의 방벽 (Bulwark of Faith)', 
+                'cru_battle_heal': '전투 치유 (Battle Heal)', 
+                'cru_inspiring_cry': '격려의 함성 (Inspiring Cry)', 
+                'cru_rallying_cry': '결집의 함성 (Rallying Cry)', 
+                'cru_reap': '수확 (Reap)', 
+                'cru_radiance': '광휘 (Radiance)', 
+                'cru_tenacity': '인내 (Tenacity)' 
+            },
+            paths: [{ id: 'wanderer', name: '방랑자 (Wanderer)', suffix: '' }, { id: 'aggressor', name: '공격자 (Aggressor)', suffix: '_p1' }, { id: 'templar', name: '성전사 (Templar)', suffix: '_p2' }, { id: 'banneret', name: '기수 (Banneret)', suffix: '_p3' }]
+        },
+        jes: {
+            title: "Jester Stats", fileName: "hero_jes_data_export.Group.csv", originalJson: "original_stats_jes.json",
+            baseActorId: "jester",
+            baseSkillIds: [
+                'jes_razors_wit', 'jes_fade_to_black', 'jes_harvest', 'jes_slice_off', 
+                'jes_finale', 'jes_solo', 'jes_battle_ballad', 'jes_play_me_out', 
+                'jes_inspiring_tune', 'jes_the_last_laugh', 'jes_echoing_march'
+            ],
+            skillNameMap: { 
+                'jes_razors_wit': '날카로운 재치 (Razor\'s Wit)', 
+                'jes_fade_to_black': '암전 (Fade to Black)', 
+                'jes_harvest': '수확 (Harvest)', 
+                'jes_slice_off': '도려내기 (Slice Off)', 
+                'jes_finale': '대단원 (Finale)', 
+                'jes_solo': '독주 (Solo)', 
+                'jes_battle_ballad': '전투의 노래 (Battle Ballad)', 
+                'jes_play_me_out': '퇴장곡 (Play Out)', 
+                'jes_inspiring_tune': '격려의 선율 (Inspiring Tune)', 
+                'jes_the_last_laugh': '앙코르 (Encore)', 
+                'jes_echoing_march': '메아리치는 행진 (Echoing March)' 
+            },
+            paths: [
+                { id: 'wanderer', name: '방랑자 (Wanderer)', suffix: '' }, 
+                { id: 'virtuoso', name: '연주자 (Virtuoso)', suffix: '_p1' }, 
+                { id: 'soloist', name: '독창자 (Soloist)', suffix: '_p2' }, 
+                { id: 'intermezzo', name: '간주곡 (Intermezzo)', suffix: '_p3' }
+            ]
         }
+
+
     };
 
     constructor() {
@@ -198,8 +270,10 @@ class HeroManager {
     }
 
     updatePathReplacementFile(baseSkillId, newSkillId) {
-        const pathFilePath = path.join(this.basePath, "actor_paths_data_export.Group.csv");
+        const pathFileName = (this.currentHeroKey === 'cru' || this.currentHeroKey === 'dul') ? "dlc_dul_cru/actor_paths_data_export_DLC1.Group.csv" : "actor_paths_data_export.Group.csv";
+        const pathFilePath = path.join(this.basePath, pathFileName);
         if (!fs.existsSync(pathFilePath)) return;
+
 
         const hero = HeroManager.HERO_DATA[this.currentHeroKey];
         const pathInfo = hero.paths.find(p => newSkillId.includes(p.suffix) && p.suffix !== '');
@@ -250,8 +324,10 @@ class HeroManager {
     }
 
     removePathReplacement(targetBaseId) {
-        const pathFilePath = path.join(this.basePath, "actor_paths_data_export.Group.csv");
+        const pathFileName = (this.currentHeroKey === 'cru' || this.currentHeroKey === 'dul') ? "dlc_dul_cru/actor_paths_data_export_DLC1.Group.csv" : "actor_paths_data_export.Group.csv";
+        const pathFilePath = path.join(this.basePath, pathFileName);
         if (!fs.existsSync(pathFilePath)) return;
+
 
         const hero = HeroManager.HERO_DATA[this.currentHeroKey];
         const pathInfo = hero.paths.find(p => p.id === this.currentPathId);

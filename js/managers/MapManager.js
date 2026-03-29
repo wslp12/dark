@@ -35,7 +35,7 @@ class MapManager {
         let currentType = null;
         
         for (const line of lines) {
-            const parts = line.split(',');
+            const parts = line.split(',').map(p => p.trim());
             if (parts[0] === 'element_start') {
                currentId = parts[1];
                currentType = parts[2];

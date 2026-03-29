@@ -8,6 +8,7 @@ class RelationshipManager {
         this.rulesFile = "story_rules_data_export.Group.csv";
         this.effectsFile = "effect_data_export.Group.csv";
         this.overstressFile = "overstress_data_export.Group.csv";
+        this.currenciesFile = "loot_data_export_CURRENCIES.Group.csv";
 
         // Target effect IDs used by the game's story rules
         this.ruleEffectIds = {
@@ -36,7 +37,14 @@ class RelationshipManager {
             harmoniousValue: 1,
             disharmoniousValue: -2,
             meltdownChance: 80,
-            resoluteChance: 20
+            resoluteChance: 20,
+            candles: {
+                one: 1,
+                two: 2,
+                three: 3,
+                four: 4,
+                five: 5
+            }
         };
 
         // 1. Read story_rules
@@ -72,12 +80,32 @@ class RelationshipManager {
             });
         }
 
+        // 4. Read Candles from currencies
+        const currenciesPath = path.join(this.basePath, this.currenciesFile);
+        if (fs.existsSync(currenciesPath)) {
+            const lines = CsvParser.readCSVLines(currenciesPath);
+            let currentId = null;
+            lines.forEach(line => {
+                const parts = line.split(',');
+                if (parts[0] === 'element_start') currentId = parts[1];
+                else if (parts[0] === 'element_end') currentId = null;
+                else if (parts[0] === 'm_qtys') {
+                    if (currentId === 'CANDLES_ONE') data.candles.one = parseInt(parts[1]);
+                    else if (currentId === 'CANDLES_TWO') data.candles.two = parseInt(parts[1]);
+                    else if (currentId === 'CANDLES_THREE') data.candles.three = parseInt(parts[1]);
+                    else if (currentId === 'CANDLES_FOUR') data.candles.four = parseInt(parts[1]);
+                    else if (currentId === 'CANDLES_FIVE') data.candles.five = parseInt(parts[1]);
+                }
+            });
+        }
+
         this.renderUI(data);
     }
 
-    saveData(harmoniousValue, disharmoniousValue, meltdownChance, resoluteChance) {
+    saveData(harmoniousValue, disharmoniousValue, meltdownChance, resoluteChance, candleData) {
         const effectsPath = path.join(this.basePath, this.effectsFile);
         const overstressPath = path.join(this.basePath, this.overstressFile);
+        const currenciesPath = path.join(this.basePath, this.currenciesFile);
 
         // 1. Update effect_data_export.Group.csv
         const effectsLines = CsvParser.readCSVLines(effectsPath);
@@ -108,6 +136,25 @@ class RelationshipManager {
                 }
             }
             CsvParser.saveCSVLines(overstressPath, ovrLines);
+        }
+
+        // 3. Update currencies (Candles)
+        if (fs.existsSync(currenciesPath) && candleData) {
+            const lines = CsvParser.readCSVLines(currenciesPath);
+            let currentId = null;
+            for (let i = 0; i < lines.length; i++) {
+                const parts = lines[i].trim().split(',');
+                if (parts[0] === 'element_start') currentId = parts[1];
+                else if (parts[0] === 'element_end') currentId = null;
+                else if (parts[0] === 'm_qtys') {
+                    if (currentId === 'CANDLES_ONE') lines[i] = `m_qtys,${candleData.one},`;
+                    else if (currentId === 'CANDLES_TWO') lines[i] = `m_qtys,${candleData.two},`;
+                    else if (currentId === 'CANDLES_THREE') lines[i] = `m_qtys,${candleData.three},`;
+                    else if (currentId === 'CANDLES_FOUR') lines[i] = `m_qtys,${candleData.four},`;
+                    else if (currentId === 'CANDLES_FIVE') lines[i] = `m_qtys,${candleData.five},`;
+                }
+            }
+            CsvParser.saveCSVLines(currenciesPath, lines);
         }
 
         alert("모든 설정이 성공적으로 저장되었습니다.");
@@ -169,6 +216,37 @@ class RelationshipManager {
                     </div>
                 </div>
 
+                <!-- Candle Section -->
+                <div style="background: rgba(209, 42, 42, 0.05); border: 1px solid var(--primary-color); padding: 25px; border-radius: 8px; margin-bottom: 30px;">
+                    <h4 style="font-family: 'Cinzel', serif; color: var(--secondary-color); margin-top: 0; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                        🕯️ 희망의 촛불 획득량 설정 (Candle Rewards)
+                    </h4>
+                    <p style="color: #666; font-size: 0.85rem; margin-top: -15px; margin-bottom: 20px;">* 게임 내에서 획득하는 촛불 묶음의 기본 수량을 수정합니다.</p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 15px;">
+                        <div style="background: #111; padding: 15px; border-radius: 6px; text-align: center;">
+                            <label style="display: block; color: #aaa; font-size: 0.8rem; margin-bottom: 8px;">Bundle 1</label>
+                            <input type="number" id="candle-one" value="${data.candles.one}" style="width: 100%; padding: 8px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; text-align: center; font-weight: bold;" />
+                        </div>
+                        <div style="background: #111; padding: 15px; border-radius: 6px; text-align: center;">
+                            <label style="display: block; color: #aaa; font-size: 0.8rem; margin-bottom: 8px;">Bundle 2</label>
+                            <input type="number" id="candle-two" value="${data.candles.two}" style="width: 100%; padding: 8px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; text-align: center; font-weight: bold;" />
+                        </div>
+                        <div style="background: #111; padding: 15px; border-radius: 6px; text-align: center;">
+                            <label style="display: block; color: #aaa; font-size: 0.8rem; margin-bottom: 8px;">Bundle 3</label>
+                            <input type="number" id="candle-three" value="${data.candles.three}" style="width: 100%; padding: 8px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; text-align: center; font-weight: bold;" />
+                        </div>
+                        <div style="background: #111; padding: 15px; border-radius: 6px; text-align: center;">
+                            <label style="display: block; color: #aaa; font-size: 0.8rem; margin-bottom: 8px;">Bundle 4</label>
+                            <input type="number" id="candle-four" value="${data.candles.four}" style="width: 100%; padding: 8px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; text-align: center; font-weight: bold;" />
+                        </div>
+                        <div style="background: #111; padding: 15px; border-radius: 6px; text-align: center;">
+                            <label style="display: block; color: #aaa; font-size: 0.8rem; margin-bottom: 8px;">Bundle 5</label>
+                            <input type="number" id="candle-five" value="${data.candles.five}" style="width: 100%; padding: 8px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; text-align: center; font-weight: bold;" />
+                        </div>
+                    </div>
+                </div>
+
                 <div style="display: flex; gap: 15px;">
                     <button id="save-relationship-btn" 
                         style="flex: 1; padding: 15px; background: var(--primary-color); color: #fff; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 1.1rem; transition: background 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
@@ -187,7 +265,16 @@ class RelationshipManager {
             const dVal = document.getElementById('rel-disharmonious').value;
             const mChance = document.getElementById('overstress-meltdown').value;
             const rChance = document.getElementById('overstress-resolute').value;
-            this.saveData(hVal, dVal, mChance, rChance);
+            
+            const candleData = {
+                one: document.getElementById('candle-one').value,
+                two: document.getElementById('candle-two').value,
+                three: document.getElementById('candle-three').value,
+                four: document.getElementById('candle-four').value,
+                five: document.getElementById('candle-five').value
+            };
+
+            this.saveData(hVal, dVal, mChance, rChance, candleData);
         });
 
         document.getElementById('reset-relationship-btn').addEventListener('click', () => {

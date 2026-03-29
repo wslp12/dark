@@ -1,0 +1,1652 @@
+{
+  "jester_corpse": {
+    "id": "jester_corpse",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "14"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "jester": {
+    "id": "jester",
+    "launchRanks": [],
+    "targetRanks": [],
+    "stats": {
+      "health_max": "29",
+      "speed": "4",
+      "stress_max": "10",
+      "deaths_door_chance": "1",
+      "speed_number_of_turns": "1",
+      "health_heal_percent_between_nodes": "0.1",
+      "route_choice_chance": "0.67"
+    },
+    "tags": [],
+    "effects": []
+  },
+  "jes_move": {
+    "id": "jes_move",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "move"
+    ],
+    "effects": [],
+    "isFriendly": true
+  },
+  "jes_razors_wit": {
+    "id": "jes_razors_wit",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "jes_razors_wit"
+    ],
+    "effects": [
+      "prime_combo",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "jes_razors_wit_u": {
+    "id": "jes_razors_wit_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "jes_razors_wit"
+    ],
+    "effects": [
+      "prime_combo",
+      "add_1_dodge",
+      "move_forward_1"
+    ],
+    "isFriendly": false
+  },
+  "jes_fade_to_black": {
+    "id": "jes_fade_to_black",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "jes_fade_to_black"
+    ],
+    "effects": [
+      "add_1_blind",
+      "move_backward_1"
+    ],
+    "isFriendly": false
+  },
+  "jes_fade_to_black_u": {
+    "id": "jes_fade_to_black_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.15"
+    },
+    "tags": [
+      "melee",
+      "jes_fade_to_black"
+    ],
+    "effects": [
+      "prime_combo",
+      "add_1_blind",
+      "move_backward_1"
+    ],
+    "isFriendly": false
+  },
+  "jes_harvest": {
+    "id": "jes_harvest",
+    "launchRanks": [
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "2",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "jes_harvest"
+    ],
+    "effects": [
+      "skill_dot_small_bleed",
+      "prime_combo_25pct"
+    ],
+    "isFriendly": false
+  },
+  "jes_harvest_u": {
+    "id": "jes_harvest_u",
+    "launchRanks": [
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "1",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "jes_harvest"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed",
+      "prime_combo_33pct"
+    ],
+    "isFriendly": false
+  },
+  "jes_slice_off": {
+    "id": "jes_slice_off",
+    "launchRanks": [
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "jes_slice_off"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed"
+    ],
+    "isFriendly": false
+  },
+  "jes_slice_off_u": {
+    "id": "jes_slice_off_u",
+    "launchRanks": [
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "jes_slice_off"
+    ],
+    "effects": [
+      "skill_dot_medium_bleed",
+      "add_1_vulnerable"
+    ],
+    "isFriendly": false
+  },
+  "jes_finale": {
+    "id": "jes_finale",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "move_backward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "jes_finale_u": {
+    "id": "jes_finale_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "3",
+      "crit_chance": "0.2"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "move_backward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "jes_solo": {
+    "id": "jes_solo",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "ranged",
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "prime_combo",
+      "add_2_dodge",
+      "add_1_speed",
+      "move_forward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_solo_u": {
+    "id": "jes_solo_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "ranged",
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "prime_combo",
+      "add_2_dodge_plus",
+      "add_1_speed",
+      "move_forward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_battle_ballad": {
+    "id": "jes_battle_ballad",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_battle_ballad_u": {
+    "id": "jes_battle_ballad_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_2",
+      "add_1_strength",
+      "add_1_strength_85pct",
+      "add_1_crit_15pct"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_play_me_out": {
+    "id": "jes_play_me_out",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block"
+    ],
+    "isFriendly": true
+  },
+  "jes_play_me_out_u": {
+    "id": "jes_play_me_out_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_2",
+      "add_1_block_plus",
+      "remove_all_combo_visible"
+    ],
+    "isFriendly": true
+  },
+  "jes_inspiring_tune": {
+    "id": "jes_inspiring_tune",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "jes_inspiring_tune"
+    ],
+    "effects": [
+      "target_stress_over_40pct",
+      "stress_heal_2"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_inspiring_tune_u": {
+    "id": "jes_inspiring_tune_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "jes_inspiring_tune"
+    ],
+    "effects": [
+      "target_stress_over_40pct",
+      "stress_heal_3",
+      "remove_all_horror"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_the_last_laugh": {
+    "id": "jes_the_last_laugh",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_the_last_laugh"
+    ],
+    "effects": [
+      "extra_action",
+      "skill_dot_small_bleed",
+      "add_1_daze_nr"
+    ],
+    "isFriendly": true,
+    "cooldown": "3"
+  },
+  "jes_the_last_laugh_u": {
+    "id": "jes_the_last_laugh_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_the_last_laugh"
+    ],
+    "effects": [
+      "extra_action",
+      "skill_dot_small_bleed",
+      "add_1_daze_nr"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "jes_echoing_march": {
+    "id": "jes_echoing_march",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "jes_echoing_march"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "move_pull_1",
+      "jes_echoing_march_pull_e"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_echoing_march_u": {
+    "id": "jes_echoing_march_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_echoing_march"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "move_pull_2",
+      "jes_echoing_march_pull_u_e"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_act_out_enemy": {
+    "id": "jes_act_out_enemy",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "act_out_enemy",
+      "jes_act_out_enemy"
+    ],
+    "effects": [],
+    "isFriendly": false
+  },
+  "jes_act_out_friendly": {
+    "id": "jes_act_out_friendly",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "3",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "act_out_friendly",
+      "jes_act_out_friendly"
+    ],
+    "effects": [],
+    "isFriendly": true
+  },
+  "jes_finale_p1": {
+    "id": "jes_finale_p1",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "move_backward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "jes_finale_p1_u": {
+    "id": "jes_finale_p1_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "3",
+      "crit_chance": "0.2"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "move_backward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "jes_solo_p1": {
+    "id": "jes_solo_p1",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "end_combo",
+      "add_2_dodge",
+      "add_1_speed",
+      "jes_virtuoso_solo_p1_next_encore_e",
+      "move_forward_2"
+    ],
+    "isFriendly": false
+  },
+  "jes_solo_p1_u": {
+    "id": "jes_solo_p1_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "end_combo",
+      "prime_combo",
+      "add_2_dodge",
+      "add_1_speed",
+      "jes_virtuoso_solo_p1_u_next_encore_e",
+      "move_forward_2"
+    ],
+    "isFriendly": false
+  },
+  "jes_inspiring_tune_p1": {
+    "id": "jes_inspiring_tune_p1",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "jes_inspiring_tune"
+    ],
+    "effects": [
+      "target_stress_over_40pct",
+      "stress_heal_2",
+      "jes_virtuoso_inspiring_tune_p1_next_encore_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_inspiring_tune_p1_u": {
+    "id": "jes_inspiring_tune_p1_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "jes_inspiring_tune"
+    ],
+    "effects": [
+      "target_stress_over_40pct",
+      "stress_heal_3",
+      "jes_virtuoso_inspiring_tune_p1_u_stress_res",
+      "jes_virtuoso_inspiring_tune_p1_u_next_encore_e"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_encore_p1": {
+    "id": "jes_encore_p1",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_the_last_laugh"
+    ],
+    "effects": [
+      "jes_remove_all_finale_buffs",
+      "move_backward_2"
+    ],
+    "limit": "2",
+    "isFriendly": true
+  },
+  "jes_encore_p1_u": {
+    "id": "jes_encore_p1_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_the_last_laugh"
+    ],
+    "effects": [
+      "jes_remove_all_finale_buffs",
+      "move_backward_2"
+    ],
+    "limit": "4",
+    "isFriendly": true
+  },
+  "jes_battle_ballad_p1": {
+    "id": "jes_battle_ballad_p1",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_battle_ballad_p1_u": {
+    "id": "jes_battle_ballad_p1_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength",
+      "add_1_strength_85pct",
+      "add_1_crit_15pct"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_play_me_out_p1": {
+    "id": "jes_play_me_out_p1",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block"
+    ],
+    "isFriendly": true
+  },
+  "jes_play_me_out_p1_u": {
+    "id": "jes_play_me_out_p1_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block_plus",
+      "remove_all_combo_visible"
+    ],
+    "isFriendly": true
+  },
+  "jes_echoing_march_p1": {
+    "id": "jes_echoing_march_p1",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "jes_echoing_march"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "move_knockback_1",
+      "jes_virtuoso_echoing_march_knockback_e"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_echoing_march_p1_u": {
+    "id": "jes_echoing_march_p1_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_echoing_march"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "move_knockback_2",
+      "jes_virtuoso_echoing_march_knockback_e"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_harvest_p2": {
+    "id": "jes_harvest_p2",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "3",
+      "health_damage_range": "2",
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "melee",
+      "jes_harvest"
+    ],
+    "effects": [
+      "prime_combo_25pct"
+    ],
+    "isFriendly": false
+  },
+  "jes_harvest_p2_u": {
+    "id": "jes_harvest_p2_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "targetRanks": [
+      "2",
+      "3"
+    ],
+    "stats": {
+      "health_damage": "4",
+      "health_damage_range": "2",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "melee",
+      "jes_harvest"
+    ],
+    "effects": [
+      "prime_combo_33pct"
+    ],
+    "isFriendly": false
+  },
+  "jes_finale_p2": {
+    "id": "jes_finale_p2",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "move_backward_2",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "jes_remove_all_finale_buffs"
+    ],
+    "limit": "3",
+    "isFriendly": false
+  },
+  "jes_finale_p2_u": {
+    "id": "jes_finale_p2_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "3",
+      "crit_chance": "0.2"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "move_backward_2",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "jes_remove_all_finale_buffs"
+    ],
+    "limit": "3",
+    "isFriendly": false
+  },
+  "jes_solo_p2": {
+    "id": "jes_solo_p2",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "add_2_dodge",
+      "add_2_taunt_nr",
+      "move_forward_3"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "jes_solo_p2_u": {
+    "id": "jes_solo_p2_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "add_2_dodge_plus",
+      "add_2_taunt_nr",
+      "move_forward_3"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "jes_encore_p2": {
+    "id": "jes_encore_p2",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "jes_the_last_laugh"
+    ],
+    "effects": [
+      "move_forward_1"
+    ],
+    "isFriendly": true,
+    "cooldown": "4"
+  },
+  "jes_encore_p2_u": {
+    "id": "jes_encore_p2_u",
+    "launchRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [],
+    "stats": {},
+    "tags": [
+      "jes_the_last_laugh"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_speed"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "jes_battle_ballad_p2": {
+    "id": "jes_battle_ballad_p2",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_battle_ballad_p2_u": {
+    "id": "jes_battle_ballad_p2_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength",
+      "add_1_strength_85pct",
+      "add_1_crit_15pct"
+    ],
+    "isFriendly": true,
+    "cooldown": "1"
+  },
+  "jes_play_me_out_p2": {
+    "id": "jes_play_me_out_p2",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block"
+    ],
+    "isFriendly": true
+  },
+  "jes_play_me_out_p2_u": {
+    "id": "jes_play_me_out_p2_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block_plus",
+      "remove_all_combo_visible"
+    ],
+    "isFriendly": true
+  },
+  "jes_finale_p3": {
+    "id": "jes_finale_p3",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "6",
+      "health_damage_range": "6",
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "move_backward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "jes_finale_p3_u": {
+    "id": "jes_finale_p3_u",
+    "launchRanks": [
+      "1",
+      "2"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "health_damage": "10",
+      "health_damage_range": "3",
+      "crit_chance": "0.2"
+    },
+    "tags": [
+      "ranged",
+      "jes_finale"
+    ],
+    "effects": [
+      "combo_damage_boost_50pct",
+      "end_combo",
+      "add_1_vulnerable_nr",
+      "add_1_daze_nr",
+      "move_backward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "3"
+  },
+  "jes_solo_p3": {
+    "id": "jes_solo_p3",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "prime_combo",
+      "path_buff_jes_intermezzo_bleed",
+      "add_2_dodge",
+      "move_forward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_solo_p3_u": {
+    "id": "jes_solo_p3_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "jes_solo"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "prime_combo",
+      "path_buff_jes_intermezzo_bleed",
+      "add_2_dodge_plus",
+      "move_forward_3"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_battle_ballad_p3": {
+    "id": "jes_battle_ballad_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength",
+      "path_buff_jes_intermezzo_bleed"
+    ],
+    "isFriendly": true
+  },
+  "jes_battle_ballad_p3_u": {
+    "id": "jes_battle_ballad_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_battle_ballad"
+    ],
+    "effects": [
+      "move_forward_1",
+      "add_1_strength",
+      "add_1_crit_15pct",
+      "path_buff_jes_intermezzo_bleed"
+    ],
+    "isFriendly": true
+  },
+  "jes_play_me_out_p3": {
+    "id": "jes_play_me_out_p3",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block",
+      "path_buff_jes_intermezzo_bleed"
+    ],
+    "isFriendly": true
+  },
+  "jes_play_me_out_p3_u": {
+    "id": "jes_play_me_out_p3_u",
+    "launchRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3"
+    ],
+    "stats": {},
+    "tags": [
+      "jes_play_me_out"
+    ],
+    "effects": [
+      "move_backward_1",
+      "add_1_block_plus",
+      "path_buff_jes_intermezzo_bleed"
+    ],
+    "isFriendly": true
+  },
+  "jes_inspiring_tune_p3": {
+    "id": "jes_inspiring_tune_p3",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "jes_inspiring_tune"
+    ],
+    "effects": [
+      "target_stress_over_40pct",
+      "stress_heal_1",
+      "stress_heal_1_if_target_has_bleed_dot",
+      "skill_dot_very_small_bleed"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "jes_inspiring_tune_p3_u": {
+    "id": "jes_inspiring_tune_p3_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {},
+    "tags": [
+      "stress_heal",
+      "jes_inspiring_tune"
+    ],
+    "effects": [
+      "stress_heal_1_target_at_threshold",
+      "stress_heal_1_if_target_has_bleed_dot",
+      "skill_dot_very_small_bleed"
+    ],
+    "isFriendly": true,
+    "cooldown": "2"
+  },
+  "jes_echoing_march_p3": {
+    "id": "jes_echoing_march_p3",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.05"
+    },
+    "tags": [
+      "ranged",
+      "jes_echoing_march"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "move_pull_1",
+      "path_buff_jes_intermezzo_bleed",
+      "jes_echoing_march_pull_e"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  },
+  "jes_echoing_march_p3_u": {
+    "id": "jes_echoing_march_p3_u",
+    "launchRanks": [
+      "3",
+      "4"
+    ],
+    "targetRanks": [
+      "2",
+      "3",
+      "4"
+    ],
+    "stats": {
+      "crit_chance": "0.1"
+    },
+    "tags": [
+      "ranged",
+      "jes_echoing_march"
+    ],
+    "effects": [
+      "til_nondamaging_attack",
+      "move_pull_1",
+      "path_buff_jes_intermezzo_bleed",
+      "jes_intermezzo_echoing_march_p3_debuff_bundle"
+    ],
+    "isFriendly": false,
+    "cooldown": "1"
+  }
+}

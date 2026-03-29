@@ -14,8 +14,8 @@
     "launchRanks": [],
     "targetRanks": [],
     "stats": {
-      "health_max": "35",
-      "speed": "4",
+      "health_max": "40",
+      "speed": "6",
       "stress_max": "10",
       "deaths_door_chance": "1",
       "speed_number_of_turns": "1",
@@ -28,10 +28,10 @@
   "hel_move": {
     "id": "hel_move",
     "launchRanks": [
-      "0",
       "1",
       "2",
-      "3"
+      "3",
+      "4"
     ],
     "targetRanks": [],
     "stats": {},
@@ -52,7 +52,7 @@
       "2"
     ],
     "stats": {
-      "health_damage": "4",
+      "health_damage": "5",
       "health_damage_range": "4",
       "crit_chance": "0.05"
     },
@@ -78,8 +78,8 @@
       "2"
     ],
     "stats": {
-      "health_damage": "6",
-      "health_damage_range": "4",
+      "health_damage": "7",
+      "health_damage_range": "5",
       "crit_chance": "0.1"
     },
     "tags": [
@@ -261,7 +261,8 @@
     "targetRanks": [
       "1",
       "2",
-      "3"
+      "3",
+      "4"
     ],
     "stats": {
       "health_damage": "3",
@@ -289,7 +290,8 @@
     "targetRanks": [
       "1",
       "2",
-      "3"
+      "3",
+      "4"
     ],
     "stats": {
       "health_damage": "4",
@@ -1442,7 +1444,8 @@
     ],
     "targetRanks": [
       "1",
-      "2"
+      "2",
+      "3"
     ],
     "stats": {
       "crit_chance": "0.05"
@@ -1452,8 +1455,8 @@
       "hel_barbaric_yawp"
     ],
     "effects": [
-      "til_nondamaging_attack",
       "til_ignore_blind",
+      "til_nondamaging_attack",
       "add_1_weak_hidden",
       "add_2_taunt_nr",
       "add_1_winded_hidden"
